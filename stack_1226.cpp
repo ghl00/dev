@@ -32,7 +32,7 @@ void LineEdit()
 		auto it = str.begin();
 		while (!s.empty())
 		{
-			//it always point to fist element position
+			//it always point to first element position
 			str.insert(it, s.top());
 			s.pop();
 		}
